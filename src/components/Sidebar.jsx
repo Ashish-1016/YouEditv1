@@ -35,7 +35,13 @@ export function Sidebar() {
           <ListItemPrefix>
             <ShoppingBagIcon className="h-5 w-5" />
           </ListItemPrefix>
-          E-Commerce
+          Analytics
+        </ListItem>
+        <ListItem>
+          <ListItemPrefix>
+            <ShoppingBagIcon className="h-5 w-5" />
+          </ListItemPrefix>
+          Workspaces
         </ListItem>
         <ListItem>
           <ListItemPrefix>

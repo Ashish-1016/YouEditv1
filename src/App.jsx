@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Workspaces from "./components/Workspaces";
 import WorkspaceDetails from "./components/WorkspaceDetails";
 import WorkspaceVideoEdit from "./components/WorkspaceVideoEdit";
+import YoutuberReview from "./components/YoutuberReview";
 
 function App() {
   const [open, setOpen] = React.useState(0);
@@ -29,7 +30,7 @@ function App() {
       <section className="h-screen hidden  lg:inline-flex lg:basis-1/5 ">
         <section className="fixed ">
           <nav className="bg-white shadow-xl rounded-md w-[19vw] h-screen">
-            Sidebar
+            <Sidebar />
           </nav>
         </section>
       </section>
@@ -41,11 +42,21 @@ function App() {
           <section className=" w-full  ">
             <BrowserRouter>
               <Routes>
-                <Route path='/editor/dashboard' element={<IntegrationCard />} />
-                <Route path='/editor/workspaces' element={<Workspaces />} />
-                <Route path='/editor/workspaces/details' element={<WorkspaceDetails />} />
-                <Route path='/editor/workspaces/VideoEdit' element={<WorkspaceVideoEdit />} />
-                <Route path='/editor/inbox' element={<IntegrationCard />} />
+                <Route path="/editor/dashboard" element={<IntegrationCard />} />
+                <Route path="/editor/workspaces" element={<Workspaces />} />
+                <Route
+                  path="/editor/workspaces/details"
+                  element={<WorkspaceDetails />}
+                />
+                <Route
+                  path="/editor/workspaces/VideoEdit"
+                  element={<WorkspaceVideoEdit />}
+                />
+                <Route
+                  path="/youtuber/workspaces/VideoReview"
+                  element={<YoutuberReview />}
+                />
+                <Route path="/editor/inbox" element={<IntegrationCard />} />
               </Routes>
             </BrowserRouter>
           </section>
