@@ -239,7 +239,7 @@ export function ComplexNavbar() {
   }, []);
 
   return (
-    <Navbar className="lg:max-w-6xl w-full lg:ml-[20vw] my-4 fixed z-50">
+    <Navbar className="lg:max-w-[77vw] md:w-[98vw] w-[97vw] my-2 fixed z-50">
       <div className="relative mx-auto flex items-center text-blue-gray-900">
         {/* <IconButton className="md:hidden" variant="text" color="blue-gray" >
           <svg

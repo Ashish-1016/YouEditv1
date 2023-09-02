@@ -16,12 +16,12 @@ function YoutuberReview() {
     <main className="flex flex-col-reverse lg:flex-row m-2 md:space-x-4">
       <section className="lg:basis-3/4 ">
         <Card className="w-full min-h-screen ">
-          <Card className="p-4 m-4">
-            <video className="h-full w-full rounded-lg" controls>
+
+            <video className="h-full w-full rounded-lg p-4 " controls>
               <source src="/demo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </Card>
+
 
           <CardBody className="space-y-5">
             <Typography variant="h1" color="blue-gray" className=" flex ">

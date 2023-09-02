@@ -18,10 +18,10 @@ import {
 
 export function Sidebar() {
   return (
-    <Card className="h-[calc(100vh-2rem)] w-[15vw]  shadow-xl">
+    <Card className="h-[calc(100vh-2rem)] min-w-[15vw]  shadow-xl">
       <div className="mb-2 p-2">
         <Typography variant="h5" color="blue-gray">
-          Sidebar
+          YouEdit
         </Typography>
       </div>
       <List>
@@ -48,15 +48,6 @@ export function Sidebar() {
             <InboxIcon className="h-5 w-5" />
           </ListItemPrefix>
           Inbox
-          <ListItemSuffix>
-            <Chip
-              value="14"
-              size="sm"
-              variant="ghost"
-              color="blue-gray"
-              className="rounded-full"
-            />
-          </ListItemSuffix>
         </ListItem>
         <ListItem>
           <ListItemPrefix>

@@ -39,6 +39,40 @@ function WorkspaceDetails() {
               <button className="btn btn-ghost btn-xs">Check Details</button>
             </th>
           </tr>
+          <tr>
+            <th>
+              <label>
+                <input type="checkbox" className="checkbox" />
+              </label>
+            </th>
+            <td>
+              <div className="flex items-center ">
+                <div className="font-bold">22 August 2023</div>
+              </div>
+            </td>
+            <td className="font-bold">How to do something</td>
+            <td>Processing</td>
+            <th>
+              <button className="btn btn-ghost btn-xs">Check Details</button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <label>
+                <input type="checkbox" className="checkbox" />
+              </label>
+            </th>
+            <td>
+              <div className="flex items-center ">
+                <div className="font-bold">22 August 2023</div>
+              </div>
+            </td>
+            <td className="font-bold">How to do something</td>
+            <td>Processing</td>
+            <th>
+              <button className="btn btn-ghost btn-xs">Check Details</button>
+            </th>
+          </tr>
         </tbody>
       </table>
     </div>
